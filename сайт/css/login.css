@@ -1,0 +1,54 @@
+.login{
+    display: flex;
+    width: 100%;
+    padding: 0 0 0 0;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    height: 40vw;
+    font-weight: lighter;
+    align-content: center;
+    justify-content: center;
+   
+
+}
+
+.login-inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 6vw 12vw 12vw 12vw;
+    justify-content: space-between;
+    border: white 0.1vw solid;
+    border-radius: 1vw;
+    
+
+}
+
+.login-inputs input[type="login-input"] {
+  background: none;
+  border: 0;
+  border-bottom: 0.05vw solid white;
+  color: #ccc;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 1.04vw;
+  transition: 250ms all ease-in;
+  
+}
+
+  .login-inputs a{
+    border: white solid 2px;
+    padding: 0.7vw;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .login-inputs label{
+    padding: 0.2vw;
+    margin: 0;
+  }
+
+  .span-card{
+    text-align: center;
+  }
