@@ -1,0 +1,212 @@
+main{
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+}
+
+.container-main{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.9vw;
+    width: 100%;
+    height: 46.5vw;
+    padding-top: 15%;
+}
+#button-main{
+    text-decoration: none;
+    color: white;
+    border: white solid 2px;
+    margin-top: 1vw;
+    padding: 0.5vw;
+}
+
+.feedback{
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    height: 40vw;
+    font-weight: lighter;
+
+}
+.feedback img{
+    width: 60%;
+    height: 40vw;
+    
+
+}
+.feed-inputs{
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15vw;
+    justify-content: space-between;
+    
+
+}
+
+.feed-inputs input[type="feed-input"] {
+  background: none;
+  border: 0;
+  border-bottom: 0.05vw solid white;
+  color: #ccc;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 1.04vw;
+  transition: 250ms all ease-in;
+  
+}
+
+  .feed-inputs a{
+    border: white solid 2px;
+    padding: 0.5vw;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .feed-inputs label{
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 19vw ;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    padding: 1.04vw;
+    margin: 4vw;
+    border-radius: 0.52vw;
+    box-shadow: 0 0.10vw 0.52vw rgba(233, 227, 227, 0.5);
+    height: 15vw;
+    width: 15vw;
+  }
+
+  .card-img-picture{
+    height: 5vw;
+    width: 10%;
+  }
+
+  .who-use{
+    border-radius: 0.5vw;
+    border: 0.09vw solid white;
+    text-align: left;
+    padding: 0.3vw;
+    margin: 0.2vw;
+  }
+
+  .main-catalog{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    align-content: center; 
+    }
+  .catalog{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 4vw;
+
+  }
+
+  .card-img-picture-cube {
+    height: 7vw;
+    width: 50%;
+    fill: white;
+  }
+
+  .card-a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .card-more{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    padding: 1.04vw;
+    margin: 4vw;
+    
+    height: 15vw;
+    width: 15vw;
+  }
+
+  .card-img-picture{
+    height: 5vw;
+    width: 40%;
+  }
+  .info-cards{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .info-card{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(19, 18, 18);
+    margin-left: 6vw;
+    padding-top: 5vw;
+  }
+
+  .card-b{
+    text-decoration: none;
+    color: white;
+  }
+
+  .card-img-picture-more{
+    height: 5vw;
+    width: 12%;
+  }
+
+  .try{
+    border: white solid 2px;
+    padding: 0.6vw;
+    margin-top: 1vw;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 20%;
+    border-radius: 0.54vw;
+  }
+
+  .tasks{
+    padding: 1vw 1vw 1vw 0;
+  }
+
+  .sphere{
+    padding: 1vw 1vw 1vw 0;
+  }
+
+  .description{ 
+    padding: 1vw 1vw 1vw 0;
+  }
+
+  .another-neur{
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .another{
+    font-size: 1vw;
+  }
+
+  
